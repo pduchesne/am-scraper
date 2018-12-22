@@ -1,0 +1,18 @@
+### folders
+.idea
+.vscode
+.rpt2_cache
+node_modules
+logs
+dist/*
+
+### matching
+*.log
+*.tgz
+
+### files
+package-lock.json
+
+### inverse
+!dist/.gitkeep
+!dist/README.md
